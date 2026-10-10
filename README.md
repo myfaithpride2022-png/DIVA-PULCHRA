@@ -53,4 +53,12 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Deploying to Vercel
+
+The project uses the SvelteKit Vercel adapter. To deploy:
+
+1. Import `myfaithpride2022-png/DIVA-PULCHRA` from GitHub in [Vercel](https://vercel.com/new).
+2. Keep the project root as `.` and use the detected defaults (`npm run build`).
+3. Deploy. Future pushes to `main` will trigger production deployments automatically.
+
+No environment variables are required for the current prototype.
